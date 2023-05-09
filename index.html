@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>AntonProject</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230509230848">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Roboto:wght@400;500;700&family=Sigmar&display=swap&_v=20230509230848" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230509230848" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230509230848"></script>
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!-- <div id="popup-header" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				это общий попап
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo">DentalGroup</a>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a data-goto="#about" href="#about" class="menu__link">About us</a></li>
+							<li><a data-goto="#products" href="#products" class="menu__link">Products</a></li>
+							<li><a data-goto="#solutions" href="#solutions" class="menu__link">Solutions</a></li>
+							<li><a data-goto="#connect" href="#connect" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+				<button class="main-btn" data-popup="#popup-header">Order</button>
+			</div>
+		</header>
+
+
+		<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрити</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+
+		<div id="popup-header" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">Закрыть</button>
+					<div class="popup__text">
+						это общий попап
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section class="about" id="about">
+				<div class="about__container">
+					<div class="about__content">
+						<h1>Choose your</h1>
+						<p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, minus.</p>
+						<button data-popup="#popup-header" class="main-btn btn-about">choose</button>
+					</div>
+				</div>
+			</section>
+			<section class="production" id="products">
+				<div class="container-content">
+					<div class="production__wrapper">
+						<div class="description">
+							<h2>Our main products</h2>
+							<p class="text-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+						<!-- Slider main container -->
+						<div class="swiper swiper-recipes swiper-main">
+							<!-- Additional required wrapper -->
+							<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide swiper-products__slide">
+									<div class="product">
+										<div class="product__image">
+											<picture><source srcset="img/product-1.webp" type="image/webp"><img class="img" src="img/product-1.jpg" alt="Ваш рецепт"></picture>
+										</div>
+										<div class="product__content">
+											<p class="product-title">АйГОС Флоу - iGOS Flow (1,5мл), с бондингом iGOS-Bond (5мл), Yamakin</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-products__slide">
+									<div class="product">
+										<div class="product__image">
+											<picture><source srcset="img/product-2.webp" type="image/webp"><img class="img" src="img/product-2.jpg" alt="Ваш рецепт"></picture>
+										</div>
+										<div class="product__content">
+											<p class="product-title">АйГОС Флоу - iGOS Flow (1,5мл), с бондингом iGOS-Bond (5мл), Yamakin</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-products__slide">
+									<div class="product">
+										<div class="product__image">
+											<picture><source srcset="img/product-6.webp" type="image/webp"><img class="img" src="img/product-6.jpg" alt="Ваш рецепт"></picture>
+										</div>
+										<div class="product__content">
+											<p class="product-title">ОптиБонд Юниверсал - OptiBond Universal, Bottle Kit, Kerr</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-products__slide">
+									<div class="product">
+										<div class="product__image">
+											<picture><source srcset="img/product-3.webp" type="image/webp"><img class="img" src="img/product-3.jpg" alt="Ваш рецепт"></picture>
+										</div>
+										<div class="product__content">
+											<p class="product-title">АйГОС Лоу Флоу - iGOS Low Flow (1,5мл), с бондингом iGOS-Bond (5мл), Yamakin</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-products__slide">
+									<div class="product">
+										<div class="product__image">
+											<picture><source srcset="img/product-4.webp" type="image/webp"><img class="img" src="img/product-4.jpg" alt="Ваш рецепт"></picture>
+										</div>
+										<div class="product__content">
+											<p class="product-title">Гармонайз - Harmonize, Kerr</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-products__slide">
+									<div class="product">
+										<div class="product__image">
+											<picture><source srcset="img/product-5.webp" type="image/webp"><img class="img" src="img/product-5.jpg" alt="Ваш рецепт"></picture>
+										</div>
+										<div class="product__content">
+											<p class="product-title">Геркулайт XRV Мини - Herculite XRV, набор 62829, шприцы 3x3г, Kerr</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products-button-prev">
+							<svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M37.5 68.75C54.7589 68.75 68.75 54.7589 68.75 37.5C68.75 20.2411 54.7589 6.25 37.5 6.25C20.2411 6.25 6.25 20.2411 6.25 37.5C6.25 54.7589 20.2411 68.75 37.5 68.75Z" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M37.5 25L25 37.5L37.5 50" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M50 37.5H25" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div class="other-products">
+					<div class="other-products__container">
+						<h2 class="text-center">Other products</h2>
+						<div class="cards">
+							<div class="card">
+								<div class="card__image">
+									<picture><source srcset="img/product-7.webp" type="image/webp"><img src="img/product-7.jpg" alt=""></picture>
+								</div>
+								<div class="card__text">
+									<p>1382F Удлиненная узкая гладилка SLIM c цилиндрическим штопфером 1,0 мм, Fabri</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture><source srcset="img/product-8.webp" type="image/webp"><img src="img/product-8.jpg" alt=""></picture>
+								</div>
+								<div class="card__text">
+									<p>М-файлы для углового наконечника, РусМед (6шт)</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture><source srcset="img/product-9.webp" type="image/webp"><img src="img/product-9.jpg" alt=""></picture>
+								</div>
+								<div class="card__text">
+									<p>Латексные листы Никтон - Nic Tone, MDC Dental</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture><source srcset="img/product-10.webp" type="image/webp"><img src="img/product-10.jpg" alt=""></picture>
+								</div>
+								<div class="card__text">
+									<p>Диски полировочные Kagayaki RoundFlex Т, Kagayaki (50 шт.)</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture><source srcset="img/product-11.webp" type="image/webp"><img src="img/product-11.jpg" alt=""></picture>
+								</div>
+								<div class="card__text">
+									<p>Пластины квадратные для ортодонтических шин EV Gasket Splint, 3A MEDES</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture><source srcset="img/product-12.webp" type="image/webp"><img src="img/product-12.jpg" alt=""></picture>
+								</div>
+								<div class="card__text">
+									<p>Скалер ультразвуковой автономный с подсветкой DTE D600 LED, Woodpecker</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture><source srcset="img/product-13.webp" type="image/webp"><img src="img/product-13.jpg" alt=""></picture>
+								</div>
+								<div class="card__text">
+									<p>The Wand STA 30G 1/2 - одноразовые наконечники к аппарату CompuDent STA Drive Unit</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<picture><source srcset="img/product-14.webp" type="image/webp"><img src="img/product-14.jpg" alt=""></picture>
+								</div>
+								<div class="card__text">
+									<p>Super Pen - устройство для безболезненной стоматологической анестезии</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="solutions" id="solutions">
+				<div class="solutions__container">
+					<div class="solutions__preview">
+						<div class="preview-solutions">
+							<p class="preview-solutions__pretitle">How it works</p>
+							<h2 class="preview-solutions__title">Understand & Release
+								the stress in 3 steps</h2>
+						</div>
+						<div class="description-solutions">
+							<p>Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+						</div>
+					</div>
+					<div class="solutions__steps">
+						<div class="step">
+							<div class="step__number number">
+								01
+								<span class="number__title">Personalize</span>
+							</div>
+							<div class="step__text">
+								Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!
+							</div>
+							<div class="step__image">
+								<picture><source srcset="img/step-1.webp" type="image/webp"><img src="img/step-1.jpg" alt=""></picture>
+							</div>
+						</div>
+						<div class="step">
+							<div class="step__number number">
+								02
+								<span class="number__title">Write & Understand</span>
+							</div>
+							<div class="step__text">
+								Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!
+							</div>
+							<div class="step__image">
+								<picture><source srcset="img/step-2.webp" type="image/webp"><img src="img/step-2.jpg" alt=""></picture>
+							</div>
+						</div>
+						<div class="step">
+							<div class="step__number number">
+								03
+								<span class="number__title">Alivio</span>
+							</div>
+							<div class="step__text">
+								Now you are aware, and have a way to manage and overcome your own stress.
+								What are you waiting for? Alivio today!
+							</div>
+							<div class="step__image">
+								<picture><source srcset="img/step-3.webp" type="image/webp"><img src="img/step-3.jpg" alt=""></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts" id="connect">
+				<div class="contacts__container">
+					<h2 class="title-contact">Contact Us</h2>
+					<form action="files/sendmail/sendmail.php" method="POST">
+						<div class="form-row">
+							<div class="input-data">
+								<input type="text" name="form[name]" data-error="Error" class="input" required>
+								<div class="underline"></div>
+								<label for="form[name]">First Name</label>
+							</div>
+							<div class="input-data">
+								<input type="text" name="form[surname]" data-error="Error" class="input" required>
+								<div class="underline"></div>
+								<label for="form[surname]">Last Name</label>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="input-data">
+								<input type="text" name="form[email]" data-error="Error" class="input" required>
+								<div class="underline"></div>
+								<label for="form[email]">Email</label>
+							</div>
+							<div class="input-data">
+								<input type="text" name="form[phone]" data-error="Error" class="input" required>
+								<div class="underline"></div>
+								<label for="form[phone]">Phone Number</label>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="input-data textarea">
+								<!-- <textarea rows="8" cols="80" required></textarea>
+            <br />
+            <div class="underline"></div>
+            <label for="">Write your message</label>
+            <br /> -->
+								<div class="form-row submit-btn">
+									<div class="input-data">
+										<button type="submit" class="button button-submit">Send</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__items">
+					<div class="item">
+						<a href="tel:+48111111111">+48 111 111 111</a>
+					</div>
+					<div class="item">
+						<a href="mailto:antonbsu@mail.ru">antonbsu@mail.ru</a>
+					</div>
+					<div class="item">
+						<p>© 2023 DentalGroup. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230509230848"></script>
+</body>
+
+</html>
