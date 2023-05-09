@@ -1,0 +1,73 @@
+// Заголовки, загальні БЕМ блоки та інше...
+html {
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Aleo', serif;
+  color: #01996D;
+}
+
+.main-btn {
+	background: #01996D;
+	border: 1px solid #01996D;
+	border-radius: 4px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 13px 50px;
+	z-index: 5;
+  transition: all ease-in-out .2s;
+
+	@media (max-width: 600px) {
+		padding: 6px 20px;
+		font-size: 16px;
+	}
+
+  &:hover {
+    background-color: #07b07f;
+  }
+}
+
+.btn-about {
+  width: 227px;
+  height: 65px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 74px;
+}
+
+h2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 157%;
+}
+
+.text-description {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 31px;
+	color: #484848;
+}
+
+.container-content {
+  // display: flex;
+  padding-left: max(15px, calc((100% - 1368px) / 2));
+}
+
+.text-center {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}

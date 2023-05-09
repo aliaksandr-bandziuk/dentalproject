@@ -1,0 +1,45 @@
+<section class="contacts" id="connect">
+  <div class="contacts__container">
+    <h2 class="title-contact">Contact Us</h2>
+    <form action="files/sendmail/sendmail.php" method="POST">
+      <div class="form-row">
+         <div class="input-data">
+            <input type="text" name="form[name]" data-error="Error" class="input" required>
+            <div class="underline"></div>
+            <label for="form[name]">First Name</label>
+         </div>
+         <div class="input-data">
+            <input type="text" name="form[surname]" data-error="Error" class="input" required>
+            <div class="underline"></div>
+            <label for="form[surname]">Last Name</label>
+         </div>
+      </div>
+      <div class="form-row">
+         <div class="input-data">
+            <input type="text" name="form[email]" data-error="Error" class="input" required>
+            <div class="underline"></div>
+            <label for="form[email]">Email</label>
+         </div>
+         <div class="input-data">
+            <input type="text" name="form[phone]" data-error="Error" class="input" required>
+            <div class="underline"></div>
+            <label for="form[phone]">Phone Number</label>
+         </div>
+      </div>
+      <div class="form-row">
+         <div class="input-data textarea">
+            <!-- <textarea rows="8" cols="80" required></textarea>
+            <br />
+            <div class="underline"></div>
+            <label for="">Write your message</label>
+            <br /> -->
+            <div class="form-row submit-btn">
+               <div class="input-data">
+                <button type="submit" class="button button-submit">Send</button>
+            </div>
+         </div>
+        </div>
+      </div>
+   </form>
+  </div>
+</section>

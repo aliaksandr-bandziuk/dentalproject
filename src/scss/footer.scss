@@ -1,0 +1,26 @@
+//====================================================================================================
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+
+  // .footer__items
+  &__items {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $mobile) {
+      flex-direction: column-reverse;
+      gap: 10px;
+      align-items: center;
+    }
+  }
+}
+.item {
+}
+
+//====================================================================================================

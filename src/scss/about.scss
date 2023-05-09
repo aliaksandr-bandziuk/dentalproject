@@ -1,0 +1,23 @@
+.about {
+  margin-top: 70px;
+  background-image: url(../img/main-image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (max-width: 900px) {
+    background-position-x: -150px;
+  }
+
+  @media (max-width: 400px) {
+    background-position-x: -250px;
+  }
+
+  &__content {
+    padding-top: clamp(1.25rem, -2.273rem + 17.61vw, 10.938rem);
+    padding-bottom: clamp(1.25rem, -5.932rem + 35.91vw, 21rem);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 440px;
+  }
+}

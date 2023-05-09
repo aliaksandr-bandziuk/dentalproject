@@ -1,0 +1,128 @@
+.solutions {
+  padding-top: clamp(1.25rem, -1.023rem + 11.36vw, 7.5rem);
+  padding-bottom: clamp(1.25rem, 0.568rem + 3.41vw, 3.125rem);
+
+  // .solutions__container
+
+  &__container {
+  }
+
+  // .solutions__preview
+
+  &__preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+  }
+
+  // .solutions__steps
+
+  &__steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    flex-wrap: wrap;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+  }
+}
+.preview-solutions {
+  flex: 1 1;
+
+  // .preview-solutions__pretitle
+
+  &__pretitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    // line-height: 157%;
+    color: #424242;
+  }
+
+  // .preview-solutions__title
+
+  &__title {
+  }
+}
+.description-solutions {
+  flex: 1 1;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+.step {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  @media (max-width: 900px) {
+    align-items: center;
+  }
+
+  &:nth-child(2) {
+    padding-top: 150px;
+
+    @media (max-width: 900px) {
+      padding-top: 0;
+    }
+  }
+
+  &:nth-child(3) {
+    padding-top: 80px;
+
+    @media (max-width: 900px) {
+      padding-top: 0;
+    }
+  }
+
+  // .step__number
+  &__number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    // line-height: 150%;
+    // text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    position: relative;
+
+    span {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 150%;
+      color: #000000;
+      position: absolute;
+      bottom: 10px;
+      left: 80px;
+    }
+  }
+
+  // .step__text
+  &__text {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+  }
+
+  // .step__image
+
+  &__image {
+  }
+}
+.number {
+
+  // .number__title
+
+  &__title {
+  }
+}
