@@ -6,13 +6,15 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230509230848">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230510002423">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Roboto:wght@400;500;700&family=Sigmar&display=swap&_v=20230509230848" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230509230848" />
-	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230509230848"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Roboto:wght@400;500;700&family=Sigmar&display=swap&_v=20230510002423" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230510002423" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20230510002423" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20230510002423"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230510002423"></script>
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -76,8 +78,8 @@
 			<section class="about" id="about">
 				<div class="about__container">
 					<div class="about__content">
-						<h1>Choose your</h1>
-						<p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, minus.</p>
+						<h1 data-aos="fade-right" data-aos-duration="1500">Choose your</h1>
+						<p class="text-description" data-aos="fade-left" data-aos-duration="2500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, minus.</p>
 						<button data-popup="#popup-header" class="main-btn btn-about">choose</button>
 					</div>
 				</div>
@@ -85,12 +87,12 @@
 			<section class="production" id="products">
 				<div class="container-content">
 					<div class="production__wrapper">
-						<div class="description">
+						<div class="description" data-aos="fade-up-right" data-aos-duration="1000">
 							<h2>Our main products</h2>
 							<p class="text-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 						</div>
 						<!-- Slider main container -->
-						<div class="swiper swiper-recipes swiper-main">
+						<div class="swiper swiper-recipes swiper-main" data-aos="fade-up-left" data-aos-duration="2000">
 							<!-- Additional required wrapper -->
 							<div class="swiper-wrapper">
 								<!-- Slides -->
@@ -250,7 +252,7 @@
 						</div>
 					</div>
 					<div class="solutions__steps">
-						<div class="step">
+						<div class="step" data-aos="zoom-in" data-aos-duration="1500">
 							<div class="step__number number">
 								01
 								<span class="number__title">Personalize</span>
@@ -262,7 +264,7 @@
 								<picture><source srcset="img/step-1.webp" type="image/webp"><img src="img/step-1.jpg" alt=""></picture>
 							</div>
 						</div>
-						<div class="step">
+						<div class="step" data-aos="zoom-in-up" data-aos-duration="2500">
 							<div class="step__number number">
 								02
 								<span class="number__title">Write & Understand</span>
@@ -274,7 +276,7 @@
 								<picture><source srcset="img/step-2.webp" type="image/webp"><img src="img/step-2.jpg" alt=""></picture>
 							</div>
 						</div>
-						<div class="step">
+						<div class="step" data-aos="zoom-in-down" data-aos-duration="3500">
 							<div class="step__number number">
 								03
 								<span class="number__title">Alivio</span>
@@ -352,7 +354,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230509230848"></script>
+	<script src="js/app.min.js?_v=20230510002423"></script>
 </body>
 
 </html>

@@ -598,7 +598,7 @@ body._touch .menu__list > li._active .menu__arrow {
 .production .other-products {
   padding-top: clamp(1.25rem, -0.114rem + 6.82vw, 5rem);
   padding-bottom: clamp(1.25rem, -0.114rem + 6.82vw, 5rem);
-  background-color: #D6D6D6;
+  background-color: #d9d7dc;
   /* Screen larger than 600px? 2 column */
   /* Screen larger than 900px? 3 columns */
 }

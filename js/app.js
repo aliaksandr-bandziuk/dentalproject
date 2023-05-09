@@ -635,6 +635,7 @@
             if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) document.querySelector(".menu__body a[href*=" + sectionId + "]").classList.add("active"); else document.querySelector(".menu__body a[href*=" + sectionId + "]").classList.remove("active");
         }));
     }
+    AOS.init();
     window["FLS"] = true;
     isWebp();
     formFieldsInit({
