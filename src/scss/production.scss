@@ -1,9 +1,9 @@
 .production {
-  padding-top: clamp(1.25rem, -2.295rem + 17.73vw, 11rem);
+  padding-top: clamp(2.813rem, 1.563rem + 6.25vw, 6.25rem);
   // padding-bottom: clamp(1.25rem, -2.295rem + 17.73vw, 11rem);
 
   &__wrapper {
-    display: flex;
+    // display: flex;
     position: relative;
     padding-bottom: clamp(1.25rem, -2.295rem + 17.73vw, 11rem);
 
@@ -34,10 +34,12 @@
   .description {
     padding-right: 0;
     width: 100%;
+    margin-bottom: 30px;
     
     @media (min-width: 1100px) {
-      width: 30%;
-      padding-right: 21px;
+      // width: 30%;
+      // padding-right: 21px;
+      text-align: center;
     }
   }
 
@@ -48,7 +50,7 @@
 
       // .product__image
       &__image {
-        border: 1px solid #D6D6D6;
+        border: 1px solid #01996D;
         border-radius: 10px;
         transition: all ease-in-out 0.2s;
         margin-bottom: clamp(0.938rem, 0.511rem + 1.82vw, 1.875rem);
@@ -76,11 +78,12 @@
   .product-title {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+    line-height: clamp(1.125rem, 1.08rem + 0.23vw, 1.25rem);
     color: #484848;
     margin-bottom: 20px;
     transition: all ease-in-out .2s;
+    text-align: center;
   }
   .product-text {
     font-style: normal;
@@ -99,7 +102,7 @@
     }
 
     .card {
-      background-color: #b2d4ca;
+      background-color: #01996D;
       color: white;
       padding: 5px;
       border-radius: 10px;
@@ -120,7 +123,7 @@
           font-weight: 400;
           font-size: 18px;
           line-height: 20px;
-          color: #484848;
+          color: #fff;
           text-align: center;
         }
       }

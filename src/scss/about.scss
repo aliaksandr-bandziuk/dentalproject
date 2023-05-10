@@ -1,11 +1,15 @@
 .about {
   margin-top: 70px;
-  background-image: url(../img/main-image-1.jpg);
+  background-image: url(../img/main-image-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1360px) {
     background-position-x: -150px;
+  }
+
+  @media (max-width: 900px) {
+    background-position-x: -100px;
   }
 
   @media (max-width: 400px) {

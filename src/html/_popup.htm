@@ -11,10 +11,50 @@
 
 <div id="popup-header" aria-hidden="true" class="popup">
 	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
+		<div class="popup__content popup-header__content" style="position: relative;">
+			<button data-close type="button" class="popup__close" style="color: #fff; font-size: 20px; position: absolute; right: 20px;">╳</button>
 			<div class="popup__text">
-				это общий попап
+				<h2 class="title-contact" style="padding-top: 30px;">Skontaktuj się z nami</h2>
+				<form action="files/sendmail/sendmail.php" method="POST">
+					<div class="form-row">
+						 <div class="input-data">
+								<input type="text" name="form[name]" data-error="Error" class="input" required>
+								<div class="underline"></div>
+								<label for="form[name]">Imię</label>
+						 </div>
+						 <div class="input-data">
+								<input type="text" name="form[surname]" data-error="Error" class="input" required>
+								<div class="underline"></div>
+								<label for="form[surname]">Nazwisko</label>
+						 </div>
+					</div>
+					<div class="form-row">
+						 <div class="input-data">
+								<input type="text" name="form[email]" data-error="Error" class="input" required>
+								<div class="underline"></div>
+								<label for="form[email]">Email</label>
+						 </div>
+						 <div class="input-data">
+								<input type="text" name="form[phone]" data-error="Error" class="input" required>
+								<div class="underline"></div>
+								<label for="form[phone]">Numer telefonu</label>
+						 </div>
+					</div>
+					<div class="form-row">
+						 <div class="input-data textarea">
+								<!-- <textarea rows="8" cols="80" required></textarea>
+								<br />
+								<div class="underline"></div>
+								<label for="">Write your message</label>
+								<br /> -->
+								<div class="form-row submit-btn">
+									 <div class="input-data">
+										<button type="submit" class="button button-submit">Wysłać</button>
+								</div>
+						 </div>
+						</div>
+					</div>
+			 </form>
 			</div>
 		</div>
 	</div>

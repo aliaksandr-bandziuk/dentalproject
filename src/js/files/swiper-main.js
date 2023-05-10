@@ -1,11 +1,15 @@
 const swiper = new Swiper('.swiper-main', {
   // Optional parameters
-  loop: true,
   slidesPerView: 2,
   spaceBetween: 17,
+  loop: true,
   autoplay: {
-    delay: 3000,
+    delay: 1,
+    disableOnInteraction: false,
   },
+  freeMode: true,
+  speed: 5000,
+  freeModeMomentum: false,
   // initialSlide: 4,
   
 

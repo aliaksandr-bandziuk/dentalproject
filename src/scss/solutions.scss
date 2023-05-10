@@ -14,9 +14,11 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
+    gap: 40px;
 
     @media (max-width: 900px) {
       flex-direction: column;
+      gap: 1px;
     }
   }
 
@@ -117,6 +119,9 @@
   // .step__image
 
   &__image {
+    img {
+      border-radius: 10px;
+    }
   }
 }
 .number {
